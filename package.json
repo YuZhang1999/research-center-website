@@ -1,0 +1,30 @@
+{
+  "name": "课题组网站",
+  "version": "1.0.0",
+  "description": "云南省工业废水光催化处理工程技术研究中心网站项目",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "start:frontend": "cd frontend && npm start",
+    "start:backend": "cd backend && npm run dev",
+    "install:all": "npm install --workspaces",
+    "build:frontend": "cd frontend && npm run build",
+    "test:frontend": "cd frontend && npm test",
+    "test:backend": "cd backend && npm test"
+  },
+  "keywords": [
+    "research-center",
+    "wastewater-treatment",
+    "photocatalysis",
+    "environmental-engineering"
+  ],
+  "author": "网站项目组",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  }
+}
