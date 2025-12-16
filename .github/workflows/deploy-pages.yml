@@ -36,7 +36,7 @@ jobs:
       - name: Build
         run: |
           cd frontend
-          CI=false npm run build
+          CI=false PUBLIC_URL=https://yuzhang1999.github.io/research-center-website npm run build
       
       - name: Setup Pages
         uses: actions/configure-pages@v4
