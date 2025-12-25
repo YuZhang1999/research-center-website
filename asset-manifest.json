@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/research-center-website/static/css/main.7af462be.css",
+    "main.js": "/research-center-website/static/js/main.d3aefe25.js",
+    "index.html": "/research-center-website/index.html",
+    "main.7af462be.css.map": "/research-center-website/static/css/main.7af462be.css.map",
+    "main.d3aefe25.js.map": "/research-center-website/static/js/main.d3aefe25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7af462be.css",
+    "static/js/main.d3aefe25.js"
+  ]
+}
