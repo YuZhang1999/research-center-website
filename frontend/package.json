@@ -5,7 +5,7 @@
   "description": "云南省工业废水光催化处理工程技术研究中心网站前端",
   "author": "网站项目组",
   "license": "MIT",
-  "homepage": "https://yuzhang1999.github.io/research-center-website",
+  "homepage": ".",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",

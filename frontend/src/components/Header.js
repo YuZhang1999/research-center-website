@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, Menu, Row, Col } from 'antd';
-import { HomeOutlined, UserOutlined, ExperimentOutlined, TeamOutlined, TrophyOutlined, ProjectOutlined, BuildOutlined, BookOutlined, CloudOutlined, ContactsOutlined, RobotOutlined } from '@ant-design/icons';
+import { HomeOutlined, UserOutlined, ExperimentOutlined, TeamOutlined, TrophyOutlined, ProjectOutlined, BuildOutlined, BookOutlined, CloudOutlined, ContactsOutlined, RobotOutlined, FilterOutlined } from '@ant-design/icons';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 const { Header: AntHeader } = Layout;
@@ -20,6 +20,7 @@ const Header = () => {
     if (path === '/projects') return ['projects'];
     if (path === '/pilot-base') return ['pilot'];
     if (path === '/resources') return ['resources'];
+    if (path === '/material-filter') return ['material-filter'];
     if (path === '/photocatalyst-gpt') return ['photocatalyst-gpt'];
     if (path === '/contact') return ['contact'];
     if (path === '/intranet') return ['intranet'];
@@ -56,6 +57,9 @@ const Header = () => {
       case 'resources':
         navigate('/resources');
         break;
+      case 'material-filter':
+        navigate('/material-filter');
+        break;
       case 'photocatalyst-gpt':
         navigate('/photocatalyst-gpt');
         break;
@@ -84,6 +88,7 @@ const Header = () => {
     { key: 'projects', label: '工程项目', icon: <ProjectOutlined /> },
     { key: 'pilot', label: '中试基地', icon: <BuildOutlined /> },
     { key: 'resources', label: '课题组资源', icon: <BookOutlined /> },
+    { key: 'material-filter', label: '材料智能筛选系统', icon: <FilterOutlined /> },
     { key: 'photocatalyst-gpt', label: 'PHOTOCATALYST GPT', icon: <RobotOutlined /> },
     { key: 'intranet', label: '内网', icon: <CloudOutlined /> },
     { key: 'contact', label: '联系我们', icon: <ContactsOutlined /> },

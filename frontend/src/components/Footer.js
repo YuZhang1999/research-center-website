@@ -8,19 +8,23 @@ const Footer = () => {
   const links = [
     // 学术机构
     { name: '云南大学', url: 'https://www.ynu.edu.cn/' },
-    { name: '云南大学材料学院', url: 'http://www.mse.ynu.edu.cn/' },
+    { name: '云南大学材料与能源学院', url: 'http://www.mse.ynu.edu.cn/' },
     { name: '中科院大连化学物理所', url: 'https://www.dicp.ac.cn/' },
-    { name: '中科院理化所', url: 'http://www.ipc.cas.cn/' },
+    { name: '中科院理化技术所', url: 'http://www.ipc.cas.cn/' },
     { name: '中科院宁波材料所', url: 'https://www.nimte.ac.cn/' },
     // 学术组织
     { name: '中国环境科学学会', url: 'https://www.chinacses.org/' },
     { name: '中国化学会', url: 'http://www1.chemsoc.org.cn/' },
     { name: '中国化工学会', url: 'https://www.ciesc.cn/' },
     { name: '中国催化学会', url: 'https://catalysis.org.cn/' },
+    { name: '云南大学地球科学学院', url: 'http://www.srees.ynu.edu.cn/' },
+    { name: '昆明理工大学环境科学与工程学院', url: 'https://ese.kmust.edu.cn/' },
+    { name: '云南省生态环境科学研究院', url: 'http://www.yraes.org.cn/' },
+    { name: '中国矿业大学（北京）化学与环境工程学院', url: 'https://scee.cumtb.edu.cn/' },
     // 政府部门
     { name: '国家自然科学基金委员会', url: 'https://www.nsfc.gov.cn/' },
-    { name: '科技部', url: 'https://www.most.gov.cn/' },
-    { name: '生态环境部', url: 'https://www.mee.gov.cn/' },
+    { name: '中华人民共和国科技部', url: 'https://www.most.gov.cn/' },
+    { name: '中华人民共和国生态环境部', url: 'https://www.mee.gov.cn/' },
     { name: '云南省科技厅', url: 'https://kjt.yn.gov.cn/' },
     { name: '云南省生态环境厅', url: 'https://sthjt.yn.gov.cn/' },
   ];
@@ -30,9 +34,9 @@ const Footer = () => {
       <Row gutter={[32, 32]}>
         <Col span={8}>
           <h3 style={{ color: '#fff', marginBottom: '20px' }}>联系我们</h3>
-          <p><EnvironmentOutlined /> 地址：云南省昆明市云南大学材料科学与工程学院</p>
-          <p><PhoneOutlined /> 电话：0871-12345678</p>
-          <p><MailOutlined /> 邮箱：research-center@ynu.edu.cn</p>
+          <p><EnvironmentOutlined /> 地址：云南省昆明市云南大学材料与能源学院</p>
+          <p><PhoneOutlined /> 电话：</p>
+          <p><MailOutlined /> 邮箱：jqwang@ynu.edu.cn</p>
           <p><GlobalOutlined /> 网站：www.wastewater-research.ynu.edu.cn</p>
           
           <Divider style={{ background: '#434343', margin: '20px 0' }} />

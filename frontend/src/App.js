@@ -19,6 +19,7 @@ import Contact from './pages/Contact';
 import Login from './pages/Login';
 import Intranet from './pages/Intranet';
 import PhotocatalystGPT from './pages/PhotocatalystGPT';
+import MaterialFilter from './pages/MaterialFilter';
 
 // 导入样式
 import './assets/css/App.css';
@@ -38,6 +39,7 @@ function App() {
             <Route path="projects" element={<Projects />} />
             <Route path="pilot-base" element={<PilotBase />} />
             <Route path="resources" element={<Resources />} />
+            <Route path="material-filter" element={<MaterialFilter />} />
             <Route path="photocatalyst-gpt" element={<PhotocatalystGPT />} />
             <Route path="contact" element={<Contact />} />
           </Route>
